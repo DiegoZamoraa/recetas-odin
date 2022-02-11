@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace, sans-serif;
+}
+body{
+    background-color: bisque;
+}
+header {
+    background-color: salmon;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family:;
+    
+}
+
+#img-principal {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.img-section-principal {
+    width: 75%;
+}
+
+.menu-recetas {
+    margin-top: 10px;
+    background-color: salmon;
+    height: 43px;
+    font-size: 27px;
+    text-align: center;
+    line-height: 43px;
+}
+
+
+.list-recetas {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+ .list-recetas li {
+    list-style: none;
+ }
+
+ .list-recetas li a {
+     text-decoration: none;
+ }
+
+ .list-recetas li a:hover{
+    color: brown;
+}
+
+ul li p{
+    background-color: salmon;
+    height: 130px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 19px;
+}
